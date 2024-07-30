@@ -1,0 +1,27 @@
+/* beginning header */
+.container_header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 15rem;
+}
+.logo_container {
+    background-color: #90ee901c;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    position: absolute;
+    top: -8rem;
+}
+h1{
+    text-transform: uppercase;
+    color: #88D66C !important;
+    font-weight: 700 !important;
+}
+h2{
+    color: #88D66C !important;
+    font-size: xx-large !important;
+}
+
+/* end of the header */

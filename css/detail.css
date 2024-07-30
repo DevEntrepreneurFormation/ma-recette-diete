@@ -1,0 +1,145 @@
+body {
+    font-family: "Old Standard TT", serif !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    margin: 0;
+}
+.recipe-detail {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+}
+.recipe-detail img {
+    max-width: 300px;
+    display: block;
+    margin-bottom: 20px;
+}
+.recipe-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.recipe-description {
+    font-size: 1em;
+}
+.bande {
+    background-color: lightgreen;
+    width: 100%;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 70px;
+}
+a {
+    text-decoration: none;
+    margin-left: 5%;
+}
+.bande h2{
+    color: white !important;
+}
+.logo_container {
+    background-color: #90ee901c;
+}
+.logo{
+    width: 300px;
+    position: absolute;
+    top: -5rem;
+}
+.title {
+    text-align: center;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+}
+.card-body img{
+    width: 620px;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+}
+.container_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9rem;
+    gap: 76px;
+}
+.card-text{
+    width: 70%;
+}
+footer{
+    background-color: #88D66C;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+/* media querries */
+@media (max-width: 1350px) {
+    .slogan_left h1{
+        font-size: xx-large !important;
+    }
+    .slogan_rigth h1{
+        font-size: xx-large !important;
+    }
+    
+}
+@media (max-width: 1150px) {
+    .slogan_left h1{
+        font-size: x-large !important;
+    }
+    .slogan_rigth h1{
+        font-size: x-large !important;
+    }
+
+}
+@media (max-width: 980px) {
+    .slogan_left h1{
+        font-size: larger !important;
+    }
+    .slogan_rigth h1{
+        font-size: larger !important;
+    }
+    h2{
+        font-size: x-large !important;
+    }
+
+}
+@media (max-width: 750px) {
+    
+    .container_header{
+        flex-direction: column;
+        gap: 62px;
+        margin: 30px;
+    }
+    .slogan_left h1{
+        font-size: larger !important;
+    }
+    .slogan_rigth h1{
+        font-size: larger !important;
+    }
+    li {
+        font-size: smaller;
+    }
+    .logo {
+        width: 300px;
+        position: absolute;
+        top: -3rem;
+    }
+    h2{
+        font-size: large !important;
+    }
+    .image{
+        height: 370px !important;
+        width: 360px !important;
+    }
+
+
+}
+
